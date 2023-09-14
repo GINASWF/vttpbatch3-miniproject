@@ -1,0 +1,6 @@
+2023-09-13 15:07:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque aliquet,... (3086)"; SQL statement:
+insert into tutorials (description,published,title,id) values (?,?,?,?) [22001-214]
+2023-09-13 15:07:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec neque aliquet,... (3086)"; SQL statement:
+insert into tutorials (description,published,title,id) values (?,?,?,?) [22001-214]
